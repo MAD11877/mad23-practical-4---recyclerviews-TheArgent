@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         TextView username = findViewById(R.id.username);
         TextView description = findViewById(R.id.description);
         Button followButton = findViewById(R.id.follow);
+
 
 
         // Initialize the User object with the retrieved values
